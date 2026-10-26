@@ -1,0 +1,34 @@
+# Core UI (modern versions)
+streamlit>=1.42.0
+pillow>=12.0.0
+protobuf>=6.0.0
+cachetools>=6.0.0
+packaging>=25.0
+blinker
+
+# LangChain + Groq
+langchain
+langchain-core
+langchain-community
+langchain-groq>=0.2.0
+groq>=0.11.0
+
+# RAG + Embeddings (latest PyTorch CPU for Python 3.12)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.9.0
+sentence-transformers>=3.1.0
+faiss-cpu>=1.13.0
+pypdf>=5.0.0
+
+# Utils
+tiktoken
+python-dotenv
+httpx<0.28
+
+# Scientific
+numpy
+scipy
+pandas
+
+# Optional
+pytest>=8.3.3
